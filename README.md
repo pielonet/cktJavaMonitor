@@ -1,6 +1,6 @@
 # A Webobjects/Wonder JavaMonitor alternative
 
-An alternative to WebObjects/Wonder JavaMonitor making use of Wonder JavaMonitor direct Actions [JavaMonitor  WOnderCommunity Page](https://wiki.wocommunity.org/display/documentation/Wonder+JavaMonitor+and+wotaskd)
+An alternative to WebObjects/Wonder JavaMonitor making use of Wonder JavaMonitor direct Actions [JavaMonitor  WonderCommunity Page](https://wiki.wocommunity.org/display/documentation/Wonder+JavaMonitor+and+wotaskd)
 
 
 ## What you need
@@ -9,7 +9,7 @@ An alternative to WebObjects/Wonder JavaMonitor making use of Wonder JavaMonitor
   * Other requirements are those of the underlying used projects : Apache with mod_rewrite, php5+, modphp5-curl
 
 ## It relies upon
-The Bootstrap css framework, [Sticky Table Headers Jquery Plugin](https://github.com/jmosbech/StickyTableHeaders), [The Epiphany PHP Rest Api Framework](https://github.com/jmathai/epiphany), 
+[The excellent Bootstrap css framework](http://getbootstrap.com/), [The amazing Sticky Table Headers Jquery Plugin](https://github.com/jmosbech/StickyTableHeaders), [The Fabulous Epiphany PHP Rest Api Framework](https://github.com/jmathai/epiphany), [The outstanding TableFilter framework](https://github.com/koalyptus/TableFilter)
 
 ## Installation
 
