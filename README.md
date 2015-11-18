@@ -1,4 +1,4 @@
-# The Wonder JavaMonitor alternative
+# A Webobjects/Wonder JavaMonitor alternative
 
 An alternative to WebObjects/Wonder JavaMonitor making use of Wonder JavaMonitor direct Actions [JavaMonitor  WOnderCommunity Page](https://wiki.wocommunity.org/display/documentation/Wonder+JavaMonitor+and+wotaskd)
 
