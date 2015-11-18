@@ -8,6 +8,9 @@ An alternative to WebObjects/Wonder JavaMonitor making use of Wonder JavaMonitor
   * An installed Wonder/Webobjects application server with JavaMonitor
   * Other requirements are those of the underlying used projects : Apache with mod_rewrite, php5+, modphp5-curl
 
+## It relies upon
+The Bootstrap css framework, [Sticky Table Headers Jquery Plugin](https://github.com/jmosbech/StickyTableHeaders), [The Epiphany PHP Rest Api Framework](https://github.com/jmathai/epiphany), 
+
 ## Installation
 
   * Download files to your desired directory.
