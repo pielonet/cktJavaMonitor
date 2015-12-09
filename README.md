@@ -11,7 +11,7 @@ A user interface to Wonder/Webobjects JavaMonitor direct Actions
   * Other requirements are those of the underlying used projects : Apache with mod_rewrite, php5+, modphp5-curl
 
 ## It relies upon
-[The excellent Bootstrap css framework](http://getbootstrap.com/), [The amazing Sticky Table Headers Jquery Plugin](https://github.com/jmosbech/StickyTableHeaders), [The Fabulous Epiphany PHP Rest Api Framework](https://github.com/jmathai/epiphany), [The outstanding TableFilter framework](https://github.com/koalyptus/TableFilter)
+[The excellent Bootstrap css framework](http://getbootstrap.com/), [The amazing Sticky Table Headers Jquery Plugin](https://github.com/jmosbech/StickyTableHeaders), [The Fabulous Epiphany PHP Rest Api Framework](https://github.com/jmathai/epiphany), [The outstanding TableFilter framework](https://github.com/koalyptus/TableFilter), [The enormous Jquery Framework](https://jquery.com/)
 
 ## Let's install
 
