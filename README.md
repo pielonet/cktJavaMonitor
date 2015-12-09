@@ -7,7 +7,7 @@ A user interface to Wonder/Webobjects JavaMonitor direct Actions
 
 ## What you need
 
-  * An installed Wonder/Webobjects application server with JavaMonitor (Have a look to [JavaMonitor WonderCommunity Page](https://wiki.wocommunity.org/display/documentation/Wonder+JavaMonitor+and+wotaskd))
+  * An installed Wonder/Webobjects application server with JavaMonitor (Have a look at [JavaMonitor WonderCommunity Page](https://wiki.wocommunity.org/display/documentation/Wonder+JavaMonitor+and+wotaskd))
   * Other requirements are those of the underlying used projects : Apache with mod_rewrite, php5+, modphp5-curl
 
 ## It relies upon
