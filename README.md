@@ -18,6 +18,7 @@ Have a look to [JavaMonitor WonderCommunity Page](https://wiki.wocommunity.org/d
   * Download files to your desired directory.
   * Configure .htaccess in root directory to reflect subdirectory in mod_rewrite configuration : `RewriteBase /mydirectory`
   * Configure your VirtualHost for PHP (php-fcgid is a good choice)
+  * Rename `conf/config.default.ini` to `conf/config.ini` and modify to your needs
  
 ## And finally you use it
 Start your browser and open the application's url. You'll find everything very intuitive !
