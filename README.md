@@ -27,7 +27,8 @@ Start your browser and open the application's url. You'll find everything very i
 To stop the apps you should, in that order: 
   - Turn AutoRecover Off
   - Turn RefuseNewSessions On (and wait until the app closes after every user has disconnected)
-To startuo apps you should, in that order:
+ 
+To start the apps you should, in that order:
   - Turn RefuseNewSessions Off
   - Turn AutoRecover On (the apps should start immediatly)
 
