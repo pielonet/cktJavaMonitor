@@ -29,3 +29,6 @@ To stop the apps you should, in that order:
 To startuo apps you should, in that order:
   - Turn RefuseNewSessions Off
   - Turn AutoRecover On (the apps should start immediatly)
+
+### Screenshot
+![Screenshot](/doc/cktjavamonitor.png?raw=true "Screenshot")
