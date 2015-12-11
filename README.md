@@ -1,7 +1,10 @@
 # cktJavaMonitor
 A practical interface to Webobjects/Wonder JavaMonitor: controle your apps the easy way!
 
-## What you need
+### Screenshot
+![Screenshot](/doc/cktjavamonitor.png?raw=true "Screenshot")
+
+## Excited by the screenshot ? So, here's what you need to go on :
 
   * An installed Wonder/Webobjects application server with JavaMonitor (Have a look at [JavaMonitor WonderCommunity Page](https://wiki.wocommunity.org/display/documentation/Wonder+JavaMonitor+and+wotaskd))
   * Other requirements are those of the underlying used projects : Apache with [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html), php5+, modphp5-curl
@@ -28,5 +31,3 @@ To start the apps you should, in that order:
   - Turn RefuseNewSessions Off
   - Turn AutoRecover On (the apps should start immediatly)
 
-### Screenshot
-![Screenshot](/doc/cktjavamonitor.png?raw=true "Screenshot")
