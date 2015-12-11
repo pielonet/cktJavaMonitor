@@ -10,7 +10,7 @@ A practical interface to Webobjects/Wonder JavaMonitor: controle your apps the e
   * Other requirements are those of the underlying used projects : Apache with [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html), php5+, modphp5-curl
 
 ## It relies upon
-The excellent [Bootstrap css framework](http://getbootstrap.com/), The amazing [Sticky Table Headers Jquery Plugin](https://github.com/jmosbech/StickyTableHeaders), The minimalist yet powerful [Epiphany PHP Rest Api Framework](https://github.com/jmathai/epiphany), The outstanding [TableFilter framework](https://github.com/koalyptus/TableFilter), The fabulous [jQuery Framework](https://jquery.com/)
+Php, Javascript, html, css, The excellent [Bootstrap css framework](http://getbootstrap.com/), The amazing [Sticky Table Headers Jquery Plugin](https://github.com/jmosbech/StickyTableHeaders), The minimalist yet powerful [Epiphany PHP Rest Api Framework](https://github.com/jmathai/epiphany), The outstanding [TableFilter framework](https://github.com/koalyptus/TableFilter), The fabulous [jQuery Framework](https://jquery.com/)
 
 ## Let's install
 
