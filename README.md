@@ -1,6 +1,5 @@
-# A practical interface to Webobjects/Wonder JavaMonitor
-
-A user interface to Wonder/Webobjects JavaMonitor direct Actions
+# cktJavaMonitor
+A practical interface to Webobjects/Wonder JavaMonitor
 
 ## What you need
 
