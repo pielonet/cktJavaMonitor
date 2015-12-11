@@ -1,9 +1,6 @@
-# A Webobjects/Wonder JavaMonitor alternative
+# A practical interface to Webobjects/Wonder JavaMonitor
 
 A user interface to Wonder/Webobjects JavaMonitor direct Actions
-
-
-
 
 ## What you need
 
