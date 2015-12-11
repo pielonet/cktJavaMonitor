@@ -1,5 +1,5 @@
 # cktJavaMonitor
-A practical interface to Webobjects/Wonder JavaMonitor
+A practical interface to Webobjects/Wonder JavaMonitor: controle your apps the easy way!
 
 ## What you need
 
