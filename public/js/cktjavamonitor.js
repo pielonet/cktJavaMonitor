@@ -11,13 +11,14 @@ CKTJAVAMONITOR = {
       col_0: 'none',
       col_1: 'select',
       col_2: 'none',
-      col_3: 'none',
-      col_4: 'select',
+      col_3: 'select',
+      col_4: 'none',
       col_5: 'select',
       col_6: 'select',
-      col_7: 'none',
+      col_7: 'select',
       col_8: 'none',
-      col_9: 'none'
+      col_9: 'none',
+      col_10: 'none'
 
   },
 
@@ -202,7 +203,7 @@ CKTJAVAMONITOR = {
           var btn = '', isChecked;
           //console.logf(apps);
           var h = "<table id='appsTable' class='table table-striped table-condensed table-hover'>";
-          var keyList = ['name', 'id', 'port', 'state', 'autoRecover', 'activeSessions', 'refusingNewSessions', 'deaths', 'transactions', 'avgTransactionTime'];
+          var keyList = ['name', 'id', 'host', 'port', 'state', 'autoRecover', 'activeSessions', 'refusingNewSessions', 'deaths', 'transactions', 'avgTransactionTime'];
           var stats = { 'appsTotal':0, 'activeSessionsTotal':0, 'appsAliveTotal':0, 'appsDeadTotal':0};
       
           // Array sorted by name
@@ -225,7 +226,7 @@ CKTJAVAMONITOR = {
               //console.log(h);
             }
             h = h + "<tr>";
-            // Previously checked checkboxes are maintained on update
+            // Previously checked checkboxes are kept on update
             isChecked = $('input[name=selectedApps][value=' + app['name'] + ']').is(':checked');
             h = h + "<td><input type='checkbox' name='selectedApps' value='" + app['name'] +  "'" + ((isChecked) ? ' checked="checked"' : "") + "></td>";
             $.each(keyList, function(index, key) {
