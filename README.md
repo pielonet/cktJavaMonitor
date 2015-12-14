@@ -23,7 +23,7 @@ Example configuration for your Apache Virtualhost :
 ```apache
 	<IfModule mod_fcgid.c>
 		  <Directory "PATH-TO-YOUR-DIRECTORY/cktjavamonitor/">
-		 #Enable .htaccess files 
+		 	#Enable .htaccess files 
 			AllowOverride All
 			#Add php support by fcgid
 			AddHandler	fcgid-script .php
@@ -36,6 +36,13 @@ Example configuration for your Apache Virtualhost :
 	</IfModule>
 ```
 
+Example for fcgid wrapper `/usr/local/bin/php-wrapper`
+```bash
+#!/bin/bash
+PHP_FCGI_MAX_REQUESTS=1000
+export PHP_FCGI_MAX_REQUESTS
+exec /usr/bin/php5-cgi
+```
 ## And finally you use it
 Start your browser and open the application's url. You'll find everything very intuitive !
 
