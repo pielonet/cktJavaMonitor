@@ -19,6 +19,23 @@ Php, Javascript, html, css, The excellent [Bootstrap css framework](http://getbo
   * Configure your VirtualHost for PHP (php-fcgid is a good choice)
   * Rename `conf/config.default.ini` to `conf/config.ini` and modify to your needs
  
+Example configuration for your Apache Virtualhost :
+```apache
+	<IfModule mod_fcgid.c>
+		  <Directory "PATH-TO-YOUR-DIRECTORY/cktjavamonitor/">
+		 #Enable .htaccess files 
+			AllowOverride All
+			#Add php support by fcgid
+			AddHandler	fcgid-script .php
+			FcgidWrapper /usr/local/bin/php-wrapper .php
+			Options +ExecCGI
+			# Customize the next two directives for your requirements
+			Order allow,deny
+			Allow from XXX.XXX.XXX.XXX
+	 	</Directory>
+	</IfModule>
+```
+
 ## And finally you use it
 Start your browser and open the application's url. You'll find everything very intuitive !
 
